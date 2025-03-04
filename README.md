@@ -3,4 +3,4 @@ A Chatbot is a software that simulates human-like conversations using predefined
 
 
 # License
-[MIT License](License)
+[MIT License](LICENSE)
