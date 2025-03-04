@@ -1,0 +1,133 @@
+{
+    "intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hello", "How are you?", "Hey", "Hi there", "Good morning", "Good evening", "Greetings!", "Hey there!", "What's up?", "How’s it going?", "Howdy", "Hola", "Salutations"],
+         "responses": ["Hello!", "Hi! How can I assist you?", "Good day!", "Greetings!", "Hello there!", "Hey! How can I help?", "What’s up?", "Hi! How can I be of service?", "Good evening!"]},
+
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you", "Goodbye", "Take care", "Catch you later", "Farewell", "Talk to you soon", "Goodnight", "Bye-bye", "Later!"],
+         "responses": ["Goodbye!", "See you later!", "Have a nice day!", "Take care!", "Talk soon!", "Catch you later!", "See you around!", "Goodbye and take care!"]},
+
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "Thanks a lot", "I appreciate it", "That's helpful", "Much appreciated", "I'm grateful", "Thanks a bunch", "You're a lifesaver", "I owe you one"],
+         "responses": ["You're welcome!", "Glad I could help!", "Anytime!", "You're very welcome!", "No problem at all!", "I’m happy to assist!", "It’s my pleasure!"]},
+
+        {"tag": "help",
+         "patterns": ["What can you do?", "Help me", "What are your features?", "What can I ask?", "What help can you provide?", "Can you assist me?", "What can you do for me?", "Can you help with tasks?", "Tell me what you can do"],
+         "responses": ["I can help with answering questions, setting reminders, chatting, and more.", "I can assist with tasks, provide information, and chat with you about various topics.", "I’m here to assist with a variety of tasks, from information to entertainment.", "Ask me anything! I’m happy to help."]},
+
+        {"tag": "weather",
+         "patterns": ["What's the weather like?", "Tell me the weather", "Is it raining?", "How's the weather today?", "What's the temperature?", "Weather update", "What’s the forecast?", "Will it rain today?", "How hot is it?", "Is it sunny right now?"],
+         "responses": ["I don't have live weather updates right now, but you can check online!", "I recommend checking a weather app or website for accurate data.", "Sorry, I can’t provide weather information at the moment.", "I suggest you check a weather service for the current forecast."]},
+
+        {"tag": "thanks_help",
+         "patterns": ["Thank you for helping", "Thanks for your assistance", "Thanks for your time", "Thanks for helping me out", "I appreciate your help", "Thanks a lot for your support", "I’m grateful for your assistance", "I can't thank you enough"],
+         "responses": ["You're welcome!", "It was a pleasure helping!", "Anytime! I'm here to assist.", "Glad I could be of help!", "It’s my pleasure to assist you."]},
+
+        {"tag": "support",
+         "patterns": ["I need support", "Can you help me with an issue?", "I have a problem", "Help me fix this", "Can you troubleshoot?", "I need assistance", "I have an issue", "Something's wrong", "Can you guide me?", "I need some help"],
+         "responses": ["Sure! What seems to be the problem?", "Tell me what’s happening, I’ll do my best to help.", "I’m here to help. What’s the issue?", "Let me know what the problem is, and I’ll assist you."]},
+
+        {"tag": "feedback",
+         "patterns": ["How am I doing?", "Can you give feedback?", "What do you think of me?", "How can I improve?", "Do you like my service?", "Tell me how I can do better", "What’s your opinion of me?", "Do you think I’m improving?", "Give me your thoughts"],
+         "responses": ["I think you're great!", "You're doing great! Keep it up.", "You're always improving!", "You're on the right track! Keep going.", "You’re doing wonderfully! Keep it up."]},
+
+        {"tag": "jokes",
+         "patterns": ["Tell me a joke", "Can you make me laugh?", "Give me a joke", "Make me smile", "I want to hear a joke", "Tell me something funny", "Got any jokes?", "I need a good laugh", "Tell me a funny one", "Make me laugh out loud"],
+         "responses": ["Why don’t skeletons fight each other? They don’t have the guts!", "Why did the scarecrow win an award? Because he was outstanding in his field!", "Why don’t eggs tell jokes? They’d crack each other up!", "Why couldn’t the bicycle stand up by itself? It was two-tired!"]},
+
+        {"tag": "motivation",
+         "patterns": ["I need motivation", "Give me some motivation", "Encourage me", "I’m feeling down", "Cheer me up", "Inspire me", "Lift me up", "I need some positivity", "Give me some words of encouragement"],
+         "responses": ["Keep going! You're doing amazing!", "Stay strong! You've got this.", "Believe in yourself and your dreams!", "You are capable of great things! Keep pushing!", "Don’t give up! You're closer than you think."]},
+
+        {"tag": "shopping",
+         "patterns": ["Can you help me shop?", "I need help with shopping", "Where can I buy things?", "Show me the best deals", "Where is the nearest store?", "Can you recommend some shops?", "Help me find good products", "Where can I find a good deal?"],
+         "responses": ["I can help you find some good online shops! Let me know what you're looking for.", "I recommend checking online marketplaces like Amazon, eBay, or your local stores.", "I can assist you with finding great deals online! What are you looking for?", "Need something specific? I can suggest places to shop."]},
+
+        {"tag": "time",
+         "patterns": ["What time is it?", "Tell me the time", "What's the current time?", "Give me the time", "What’s the time now?", "Can you tell the time?", "What’s the clock say?", "What time is it on your end?", "Is it time yet?"],
+         "responses": ["I can't provide the exact time, but you can check your device’s clock.", "You can check your device for the current time.", "Sorry, I can’t tell you the time. Please check your device.", "It’s always best to check your local time through your device."]},
+
+        {"tag": "name",
+         "patterns": ["What’s your name?", "Who are you?", "Can you tell me your name?", "What do I call you?", "What should I call you?", "What’s your name again?", "Are you a bot?", "Who am I talking to?", "What is your title?"],
+         "responses": ["I’m your friendly chatbot!", "You can call me ChatBot!", "I am here to assist you!", "I go by the name ChatBot!"]},
+
+        {"tag": "age",
+         "patterns": ["How old are you?", "What’s your age?", "How long have you been around?", "Are you old?", "What’s your birth year?", "How many years have you existed?", "What’s your creation date?", "Are you new?"],
+         "responses": ["I don't have an age, I’m always here to assist!", "I don’t age, I’m forever here to help you.", "I’m timeless! I exist to help, no matter the time."]},
+
+        {"tag": "location",
+         "patterns": ["Where are you located?", "Where do you live?", "Tell me your location", "Where can I find you?", "Where are you from?", "Where are you situated?", "Where are you based?", "What’s your location?"],
+         "responses": ["I exist in the digital world, so I’m everywhere!", "I'm in the cloud, always accessible wherever you need me.", "I don’t have a physical location, I’m wherever you are!", "I’m in the digital space, ready to assist anytime!"]},
+
+        {"tag": "job",
+         "patterns": ["What’s your job?", "What do you do?", "Can you explain your work?", "What is your role?", "What is your purpose?", "What’s your main job?", "Tell me about your work", "Explain your duties", "What’s your mission?"],
+         "responses": ["I’m here to assist you with anything you need, whether it’s answering questions, chatting, or providing support.", "I’m here to chat, help, and provide useful information!", "My job is to help, inform, and entertain!", "I’m a chatbot designed to assist and make your life easier."]},
+
+        {"tag": "love",
+         "patterns": ["What is love?", "Do you know what love is?", "Tell me about love", "What do you think of love?", "Is love real?", "What’s love about?", "Do you understand love?", "What is true love?", "Can you define love?"],
+         "responses": ["Love is a deep feeling of affection, care, and emotional connection.", "Love is what makes the world go round, don't you think?", "Love is a powerful emotion that connects people.", "Love is about caring, sharing, and supporting each other."]},
+
+        {"tag": "life",
+         "patterns": ["Tell me about life", "What is life?", "What does life mean?", "Explain life", "Why is life important?", "What’s the purpose of life?", "Give me your thoughts on life", "What is the meaning of life?", "Why do we live?"],
+         "responses": ["Life is a precious journey with its ups and downs, filled with learning and growth.", "Life is what we make of it. It’s full of opportunities and challenges, and each day is a chance to start anew.", "Life is an adventure. Embrace it with open arms!", "Life is all about experiences, lessons, and connections."]},
+
+        {"tag": "compliment",
+         "patterns": ["You’re amazing", "You’re smart", "You’re helpful", "I think you’re great", "You’re awesome", "You’re incredible", "You’re the best", "I appreciate you", "You’re so kind"],
+         "responses": ["Thank you! You’re amazing too!", "I’m flattered, thank you!", "You’re too kind! I’m here to help.", "You made my day, thank you!", "Thanks for the compliment!"]},
+
+        {"tag": "pets",
+         "patterns": ["Do you like pets?", "What’s your favorite animal?", "Tell me about pets", "Do you have a pet?", "What pet do you recommend?", "Why do people love pets?", "What’s the best pet?"],
+         "responses": ["Pets are amazing companions and bring joy to life!", "I don’t have a pet, but I think they’re wonderful!", "People love pets because they bring love and happiness!", "Every pet is special in its own way. Choose one that suits you best!"]},
+
+        {"tag": "hobby",
+         "patterns": ["What are your hobbies?", "What do you do for fun?", "Do you have any interests?", "Tell me your favorite pastime", "Do you like any activities?", "What do you enjoy doing?", "Do you have a hobby?"],
+         "responses": ["I love learning and chatting with you!", "My hobby is helping people like you!", "I enjoy assisting and making conversations.", "Every day, I find joy in answering your questions!"]},
+
+        {"tag": "food",
+         "patterns": ["What’s your favorite food?", "Do you like food?", "Tell me about food", "What should I eat?", "What’s a good meal?", "Can you recommend a dish?", "What’s the best food in the world?", "Do you eat?"],
+         "responses": ["I don’t eat, but I hear pizza is a universal favorite!", "I can’t taste food, but I’ve heard great things about chocolate!", "Food is fuel for the body; pick something nutritious and delicious!", "Try something new today – maybe a recipe you’ve never tried before!"]},
+
+        {"tag": "music",
+         "patterns": ["What’s your favorite song?", "Do you like music?", "Tell me about music", "Can you recommend a song?", "What’s the best type of music?", "Do you know any artists?", "What kind of music is trending?", "Do you sing?"],
+         "responses": ["I can’t listen to music, but I hear it’s a universal language!", "Music is a great way to express emotions and relax.", "Explore genres like classical, jazz, or pop – there’s something for everyone!", "Listening to your favorite artist can brighten your day!"]},
+
+        {"tag": "games",
+         "patterns": ["Do you play games?", "What’s your favorite game?", "Tell me about games", "Can you recommend a game?", "What’s trending in gaming?", "Do you like video games?", "What games are popular?", "Do you know any good board games?"],
+         "responses": ["I can’t play games, but I hear chess is a classic!", "Gaming is a great way to relax and have fun!", "Try something like puzzles, strategy games, or even a fun video game!", "Board games like Monopoly and Scrabble are timeless favorites!"]},
+
+        {"tag": "travel",
+         "patterns": ["Where should I travel?", "What’s your favorite place?", "Can you recommend a destination?", "Tell me about traveling", "What’s a good vacation spot?", "Where do you like to go?", "Is travel important?", "Do you know any travel tips?"],
+         "responses": ["Traveling is a wonderful way to explore new cultures!", "Beach or mountains? There’s something for everyone!", "Popular destinations include Paris, Tokyo, and New York!", "Plan ahead and pack light – those are my travel tips!"]},
+
+        {"tag": "sports",
+         "patterns": ["Do you like sports?", "What’s your favorite sport?", "Tell me about sports", "Can you recommend a sport?", "What sports are trending?", "Do you know any famous athletes?", "What’s the best sport to play?", "Are you into sports?"],
+         "responses": ["Sports are a great way to stay active and have fun!", "Soccer is the most popular sport worldwide!", "Try a new sport like tennis or swimming – they’re great for fitness.", "Watching sports can be as fun as playing them!"]},
+
+        {"tag": "movies",
+         "patterns": ["What’s your favorite movie?", "Do you like movies?", "Tell me about movies", "Can you recommend a movie?", "What movies are trending?", "Do you watch films?", "What’s the best movie genre?", "Do you have a favorite actor?"],
+         "responses": ["I don’t watch movies, but I hear classics like ‘The Godfather’ are amazing!", "Movies are a great way to relax and enjoy storytelling.", "Try a genre you love – action, comedy, drama, or sci-fi!", "Watching a good film is always a fun activity!"]},
+
+        {"tag": "history",
+         "patterns": ["Tell me about history", "Do you know about the past?", "What’s your favorite historical event?", "Can you teach me history?", "What’s important about history?", "Why is history significant?", "Tell me something about the past"],
+         "responses": ["History teaches us about where we come from.", "Every event in history has shaped the world today.", "Learning history helps us avoid mistakes and understand progress.", "History is full of fascinating stories and lessons!"]},
+
+        {"tag": "books",
+ "patterns": ["Tell me about books", "What are the best books on all subjects?", "Can you recommend books?", "I need a book recommendation", "Suggest books on different subjects", "What books should I read?", "Give me book suggestions", "Any good books to read?", "Best books on all topics?", "What books can help me learn?"],
+ "responses": ["There are many great books on various subjects! Let me know what topic you're interested in.", "For science, you can explore 'A Brief History of Time' by Stephen Hawking. For fiction, try 'To Kill a Mockingbird' by Harper Lee.", "Books like 'Sapiens' by Yuval Noah Harari are excellent for history and society.", "If you're looking for self-help, 'Atomic Habits' by James Clear is a great read.", "Let me know your area of interest, and I can suggest some specific books."]
+},
+
+        {"tag": "animals",
+ "patterns": ["Tell me about animals", "What are some interesting facts about animals?", "Can you list different types of animals?", "I want to know about animals", "Give me information about animals", "What are some unique animals?", "Tell me about wild animals", "What are some domestic animals?", "Tell me about animal species", "Can you provide animal facts?"],
+ "responses": [
+     "Animals are multicellular organisms that belong to the kingdom Animalia. They range from tiny insects to massive mammals like whales.",
+     "Some common categories of animals are mammals, birds, reptiles, amphibians, fish, and insects.",
+     "Wild animals include lions, tigers, elephants, and giraffes, while domestic animals include dogs, cats, cows, and horses.",
+     "There are over 8.7 million species of animals estimated to exist on Earth!",
+     "Did you know that dolphins sleep with one eye open? Or that octopuses have three hearts?",
+     "Animals play vital roles in ecosystems, from pollinating plants to maintaining balance in the food chain.",
+     "If you’re interested in learning about specific animals, let me know!"
+      ]
+    }
+  ]
+}
